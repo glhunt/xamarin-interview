@@ -1,6 +1,7 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinInterview.Droid", "XamarinInterview.Droid\XamarinInterview.Droid.csproj", "{0353338C-91E5-4E8B-A00E-AC9F0B06771D}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "XamarinInterview.Shared", "XamarinInterview.Shared\XamarinInterview.Shared.shproj", "{03DDEF4E-CD80-4904-A964-422FA15764FA}"
@@ -14,31 +15,42 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|iPhoneSimulator = Debug|iPhoneSimulator
-		Release|iPhoneSimulator = Release|iPhoneSimulator
-		Debug|iPhone = Debug|iPhone
-		Release|iPhone = Release|iPhone
 		Debug|Any CPU = Debug|Any CPU
+		Debug|iPhone = Debug|iPhone
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
 		Release|Any CPU = Release|Any CPU
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0353338C-91E5-4E8B-A00E-AC9F0B06771D}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
-		{0353338C-91E5-4E8B-A00E-AC9F0B06771D}.Debug|iPhone.ActiveCfg = Debug|Any CPU
 		{0353338C-91E5-4E8B-A00E-AC9F0B06771D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0353338C-91E5-4E8B-A00E-AC9F0B06771D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0353338C-91E5-4E8B-A00E-AC9F0B06771D}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
-		{0353338C-91E5-4E8B-A00E-AC9F0B06771D}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{0353338C-91E5-4E8B-A00E-AC9F0B06771D}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{0353338C-91E5-4E8B-A00E-AC9F0B06771D}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
 		{0353338C-91E5-4E8B-A00E-AC9F0B06771D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0353338C-91E5-4E8B-A00E-AC9F0B06771D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AECD456B-516C-4C08-9CC9-D85500DCF6D3}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
-		{AECD456B-516C-4C08-9CC9-D85500DCF6D3}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
-		{AECD456B-516C-4C08-9CC9-D85500DCF6D3}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
-		{AECD456B-516C-4C08-9CC9-D85500DCF6D3}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{0353338C-91E5-4E8B-A00E-AC9F0B06771D}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{0353338C-91E5-4E8B-A00E-AC9F0B06771D}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{AECD456B-516C-4C08-9CC9-D85500DCF6D3}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
 		{AECD456B-516C-4C08-9CC9-D85500DCF6D3}.Debug|iPhone.ActiveCfg = Debug|iPhone
 		{AECD456B-516C-4C08-9CC9-D85500DCF6D3}.Debug|iPhone.Build.0 = Debug|iPhone
+		{AECD456B-516C-4C08-9CC9-D85500DCF6D3}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{AECD456B-516C-4C08-9CC9-D85500DCF6D3}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{AECD456B-516C-4C08-9CC9-D85500DCF6D3}.Release|Any CPU.ActiveCfg = Release|iPhoneSimulator
 		{AECD456B-516C-4C08-9CC9-D85500DCF6D3}.Release|iPhone.ActiveCfg = Release|iPhone
 		{AECD456B-516C-4C08-9CC9-D85500DCF6D3}.Release|iPhone.Build.0 = Release|iPhone
-		{AECD456B-516C-4C08-9CC9-D85500DCF6D3}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
-		{AECD456B-516C-4C08-9CC9-D85500DCF6D3}.Release|Any CPU.ActiveCfg = Release|iPhoneSimulator
+		{AECD456B-516C-4C08-9CC9-D85500DCF6D3}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{AECD456B-516C-4C08-9CC9-D85500DCF6D3}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B33EA3EE-10D0-4973-83BE-E7300AC56FCD}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		XamarinInterview.Shared\XamarinInterview.Shared.projitems*{0353338c-91e5-4e8b-a00e-ac9f0b06771d}*SharedItemsImports = 4
+		XamarinInterview.Shared\XamarinInterview.Shared.projitems*{03ddef4e-cd80-4904-a964-422fa15764fa}*SharedItemsImports = 13
+		XamarinInterview.Shared\XamarinInterview.Shared.projitems*{aecd456b-516c-4c08-9cc9-d85500dcf6d3}*SharedItemsImports = 4
 	EndGlobalSection
 EndGlobal

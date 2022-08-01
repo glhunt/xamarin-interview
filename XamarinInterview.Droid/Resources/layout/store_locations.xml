@@ -1,4 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent">
-    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:text="TODO: replace with search controls and results" />
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/results"
+        android:layout_width="247.5dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/results" />
+    <EditText
+        android:layout_width="255.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/zipCode"
+        android:text="@string/zip_codes"/>
+    <Button
+	    android:id="@+id/search"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:text="@string/get_stores" />
+    <android.support.v7.widget.RecyclerView
+	    android:id="@+id/recyclerView"
+	    android:scrollbars="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:visibility="invisible"/>
 </RelativeLayout>

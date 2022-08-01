@@ -2,4 +2,8 @@
 <resources>
     <string name="app_name">XamarinInterview.Droid</string>
     <string name="action_settings">Settings</string>
+	<string name="get_stores">Get Store Locations</string>
+	<string name="zip_codes">Zip Codes</string>
+	<string name="results">Search results will display here</string>
+	<string name="error">Must input valid Zip Code</string>
 </resources>
